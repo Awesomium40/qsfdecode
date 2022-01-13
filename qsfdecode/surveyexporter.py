@@ -3,13 +3,11 @@ from . import utils
 from . import exceptions
 import datetime
 import getpass
-import io
 import logging
 import os
 import re
 import requests
 import time
-import zipfile
 
 
 _QDC = 'Q_DATA_CENTER'
