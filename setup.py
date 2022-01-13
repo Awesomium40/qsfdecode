@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Awesomium40/qsfdecode",
-    install_requires=['beautifulsoup4 >= 4.10.0'],
+    install_requires=['beautifulsoup4 >= 4.10.0', 'soupsieve >= 1.2'],
     packages=setuptools.find_packages(),
     package_data={'': ['*.xml', '*.xsd', '*.xslt']},
     include_package_data=True,
